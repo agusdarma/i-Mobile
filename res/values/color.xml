@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+        
+    <color name="black">#000000</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="cyan">#0fa9f4</color>
+    <color name="color_black_light">#99000000</color>
+    <color name="gray20">#1f2020</color>
     <color name="list_item_title">#fff</color>
     <color name="list_background">#303030</color>
     <color name="list_background_pressed">#992416</color>
     <color name="list_divider">#272727</color>
-    <color name="counter_text_bg">#626262</color>
-    <color name="counter_text_color">#c5c4c4</color>
-    <color name="cyan">#0fa9f4</color>
-    <color name="gray20">#1f2020</color>
     <color name="white">#ffffff</color>
+    
+    <color name="frame">#b4b4b4</color>
+    <color name="frame_solid">#eee</color>
+    <color name="frame_background">#bcbcbc</color>
+    
     
     
     
