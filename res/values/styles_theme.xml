@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- 	android:fontFamily="sans-serif" // roboto regular
+		android:fontFamily="sans-serif-light" // roboto light
+		android:fontFamily="sans-serif-condensed" // roboto condensed
+		android:fontFamily="sans-serif-thin" // roboto thin (android 4.2) -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Theme" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_theme</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Theme</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Theme</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Theme</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Theme</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Theme</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_theme</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_theme</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Theme</item>
+        
+        
+    </style>
+
+    <style name="ActionBar.Solid.Theme" parent="@android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_theme</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_theme</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_theme</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Theme</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Theme" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_theme</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Theme</item>
+    </style>
+
+    <style name="PopupMenu.Theme" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_theme</item>	
+    </style>
+
+    <style name="DropDownListView.Theme" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_theme</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Theme" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_theme</item>
+    </style>
+
+    <style name="DropDownNav.Theme" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_theme</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_theme</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_theme</item>
+    </style>
+    
+    <style name="ProgressBar.Theme" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_theme</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Theme" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_theme</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Theme.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Theme</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Theme</item>
+    </style>
+    
+    
+    <style name="RobotoRegularFont" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/list_item_title</item>        
+        <item name="android:minHeight">?android:attr/listPreferredItemHeightSmall</item>        
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>       
+        <item name="android:layout_toRightOf">@id/icon</item>   
+        <item name="android:textSize">@dimen/font_size_normal</item>      
+    </style>
+    
+    <style name="HeaderFragment">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>                
+        <item name="android:textSize">@dimen/font_size_big</item>
+        <item name="android:background">@color/gray20</item>
+        <item name="android:text">Manage User</item>    
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:minHeight">@dimen/header_height_min</item>
+        <item name="android:height">@dimen/header_height</item>
+    </style>
+        
+
+</resources>
